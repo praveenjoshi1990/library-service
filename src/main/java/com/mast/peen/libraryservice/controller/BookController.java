@@ -35,6 +35,7 @@ public class BookController {
   private final BookService bookService;
   private final ApiResponseMapper apiResponseMapper;
 
+  //Get all books method
   @ApiOperation(value = "Get all books")
   @ApiResponses(
       value = {
