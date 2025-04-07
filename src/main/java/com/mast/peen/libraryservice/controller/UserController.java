@@ -31,6 +31,7 @@ public class UserController {
   private final UserService userService;
   private final ApiResponseMapper apiResponseMapper;
 
+  //Create a user feature
   @ApiOperation(value = "Create/register a user")
   @ApiResponses(
       value = {
